@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ASHRAFI | Delivering great food for more than 18 years!</title>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+        <!-- font awesome -->
+        <link rel="stylesheet" href="css/all.min.css" type="text/css">
+
+        <!-- Animate -->
+        <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+        <!-- owl-carousel -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+
+        <!-- bootstrap icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+        <!-- fonts -->
+        <link rel="stylesheet" href="css/fonts.css" type="text/css">
+
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        <!-- top-bar -->
+        <div class="top-bar d-block p-2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="contact-detail col-6 col-lg-6 py-2">
+                        <ul class="d-flex list-unstyled m-0">
+                            <li class="me-4 d-none d-md-block align-items-center">
+                                <a href="mailto:ashrafi0092@gmail.com"> <i class="bi bi-envelope "></i>ashrafi0092@gmail.com</a>
+                            </li>
+                            <li>
+                                <a href="tel:(808)789654120" class="ms-4"><i class="bi bi-telephone"></i>(808) 789 654 120</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="login col-3 col-lg-1 ms-auto py-2">
+                        <a href="#" type="button" class="btn text-white btn-sm" data-bs-toggle="modal" data-bs-target="#login">Login</a>
+                        <div class="modal fade" id="login" tabindex="-1">
+                            <div class="modal-dialog " >
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Login</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                            </div>
+                                            <div class="mb-3">
+                                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                                              <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="mb-3 form-check">
+                                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                            </div>
+                                            <button type="submit" class="btn border-0 btn-sm">Submit</button>
+                                            <span class="d-block my-3">New User ?
+                                                <a href="#" type="button" class="text-primary" data-bs-toggle="modal" data-bs-target="#register">Register</a>
+                                            </span>
+                                         </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="register" tabindex="-1">
+                            <div class="modal-dialog" >
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Register</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form class="row g-3">
+                                            <div class="col-md-6">
+                                              <label for="inputEmail4" class="form-label">Email</label>
+                                              <input type="email" class="form-control" id="inputEmail4">
+                                            </div>
+                                            <div class="col-md-6">
+                                              <label for="inputPassword4" class="form-label">Password</label>
+                                              <input type="password" class="form-control" id="inputPassword4">
+                                            </div>
+                                            <div class="col-12">
+                                              <label for="inputAddress" class="form-label">Address</label>
+                                              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                            </div>
+                                            <div class="col-12">
+                                              <label for="inputAddress2" class="form-label">Address 2</label>
+                                              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                            </div>
+                                            <div class="col-md-6">
+                                              <label for="inputCity" class="form-label">City</label>
+                                              <input type="text" class="form-control" id="inputCity">
+                                            </div>
+                                            <div class="col-md-4">
+                                              <label for="inputState" class="form-label">State</label>
+                                              <select id="inputState" class="form-select">
+                                                <option selected>Choose...</option>
+                                                <option>...</option>
+                                              </select>
+                                            </div>
+                                            <div class="col-md-2">
+                                              <label for="inputZip" class="form-label">Zip</label>
+                                              <input type="text" class="form-control" id="inputZip">
+                                            </div>
+                                            <div class="col-12">
+                                              <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                <label class="form-check-label" for="gridCheck">
+                                                  Check me out
+                                                </label>
+                                              </div>
+                                            </div>
+                                            <div class="col-12">
+                                              <button type="submit" class="btn btn-secondary btn-sm border-0">Sign in</button>
+                                            </div>
+                                            <span class="d-block my-2 d-flex">Already Registered ?
+                                            <a href="#" type="button" class="d-block ms-1 text-primary" data-bs-toggle="modal" data-bs-target="#login">Login</a>
+                                            </span>
+                                          </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-icon col-12 col-lg-3 col-xl-2 py-2 d-none d-lg-block  text-center">
+                        <ul class="d-flex list-unstyled m-0 justify-content-evenly">
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-google"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header -->
+        <header class="bg-light">
+          <div class="container">
+              <div class="row align-items-center">    
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                      <div class="container-fluid">
+                          <div class="col-2 logo animate__rubberBand">
+                            <a  href="index.html">ASHRAFI</a>
+                          </div>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="col-8" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+                              <li class="nav-item">
+                                <a class="nav-link" href="index.html">HOME</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="about.html">ABOUT</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="blog.html">BLOG</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="chefs.html">CHEFS</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="menu.html">MENU</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="contect.html">CONTECT</a>
+                              </li>      
+                          </div>
+                          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button class="btn" type="button"><a href="book a table.html">RESERVE A TABLE</a></button>
+                          </div>
+                      </div>
+                    </nav>   
+                </div>
+            </div>
+        </header>
+
+        <main>
+             <!-- ======= Book A Table Section ======= -->
+            <section id="book-a-table" class="book-a-table mt-5">
+                <div class="container" data-aos="fade-up">
+            
+                <div class="section-title">
+                    <h2>Reservation</h2>
+                    <p>Book a Table</p>
+                </div>
+            
+                <form action="index.html" method="post" role="form" class="email-form">
+                    <div class="row">
+                    <div class="col-lg-4 col-md-6 form-group">
+                        <input type="text" name="name" class="form-control"  placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email"  placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                        <input type="text" class="form-control" name="phone"  placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3">
+                        <input type="text" name="date" class="form-control"  placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3">
+                        <input type="text" class="form-control" name="time"  placeholder="Time" >
+                        <div class="validate"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 form-group mt-3">
+                        <input type="number" class="form-control" name="people"  placeholder="# of people">
+                        <div class="validate"></div>
+                    </div>
+                    </div>
+                    <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                    <div class="validate"></div>
+                    </div>
+                    <div class="mb-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+                    </div>
+                    <div class="text-center"><button type="submit">Book a Table</button></div>
+                </form>
+            
+                </div>
+            </section>
+
+             <!-- ======= Gallery ======= -->
+            <section class="gallery mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="section-title fadeInUp mb-2" >
+                                <h2>Gallery</h2>
+                                <p>Tea Time Dining</p>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-4 col-sm-6">
+                                <!-- MENU THUMB -->
+                                <div class="menu-thumb">
+                                    <a href="img/gallery/menu-image1.jpg" class="image-popup" title="American Breakfast">
+                                        <img src="img/gallery/menu-image1.jpg" class="img-responsive" alt="">
+    
+                                        <div class="menu-info">
+                                            <div class="menu-item">
+                                                    <h3>American Breakfast</h3>
+                                                    <p>Tomato / Eggs / Sausage</p>
+                                            </div>
+                                            <div class="menu-price">
+                                                    <span>$25</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                        </div>
+    
+                        <div class="col-md-4 col-sm-6">
+                                <!-- MENU THUMB -->
+                                <div class="menu-thumb">
+                                    <a href="img/gallery/menu-image2.jpg" class="image-popup" title="Self-made Salad">
+                                        <img src="img/gallery/menu-image2.jpg" class="img-responsive" alt="">
+    
+                                        <div class="menu-info">
+                                            <div class="menu-item">
+                                                    <h3>Self-made Salad</h3>
+                                                    <p>Green / Fruits / Healthy</p>
+                                            </div>
+                                            <div class="menu-price">
+                                                    <span>$18</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                        </div>
+    
+                        <div class="col-md-4 col-sm-6">
+                                <!-- MENU THUMB -->
+                                <div class="menu-thumb">
+                                    <a href="img/gallery/menu-image3.jpg" class="image-popup" title="Chinese Noodle">
+                                        <img src="img/gallery/menu-image3.jpg" class="img-responsive" alt="">
+    
+                                        <div class="menu-info">
+                                            <div class="menu-item">
+                                                    <h3>Chinese Noodle</h3>
+                                                    <p>Pepper / Chicken / Vegetables</p>
+                                            </div>
+                                            <div class="menu-price">
+                                                    <span>$34</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                        </div>
+    
+                        <div class="col-md-4 col-sm-6">
+                                <!-- MENU THUMB -->
+                                <div class="menu-thumb">
+                                    <a href="img/gallery/menu-image4.jpg" class="image-popup" title="Rice Soup">
+                                        <img src="img/gallery/menu-image4.jpg" class="img-responsive" alt="">
+    
+                                        <div class="menu-info">
+                                            <div class="menu-item">
+                                                    <h3>Rice Soup</h3>
+                                                    <p>Green / Chicken</p>
+                                            </div>
+                                            <div class="menu-price">
+                                                    <span>$28</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                        </div>
+    
+                        <div class="col-md-4 col-sm-6">
+                                <!-- MENU THUMB -->
+                                <div class="menu-thumb">
+                                    <a href="img/gallery/menu-image5.jpg" class="image-popup" title="Project title">
+                                        <img src="img/gallery/menu-image5.jpg" class="img-responsive" alt="">
+    
+                                        <div class="menu-info">
+                                            <div class="menu-item">
+                                                    <h3>Deli Burger</h3>
+                                                    <p>Beef / Fried Potatoes</p>
+                                            </div>
+                                            <div class="menu-price">
+                                                    <span>$46</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                        </div>
+    
+                        <div class="col-md-4 col-sm-6">
+                                <!-- MENU THUMB -->
+                                <div class="menu-thumb">
+                                    <a href="img/gallery/menu-image6.jpg" class="image-popup" title="Project title">
+                                        <img src="img/gallery/menu-image6.jpg" class="img-responsive" alt="">
+    
+                                        <div class="menu-info">
+                                            <div class="menu-item">
+                                                    <h3>Big Flat Fried</h3>
+                                                    <p>Pepper / Crispy</p>
+                                            </div>
+                                            <div class="menu-price">
+                                                    <span>$30</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                        </div>
+    
+                        <div class="col-md-4 col-sm-6">
+                            <!-- MENU THUMB -->
+                            <div class="menu-thumb">
+                                <a href="img/gallery/menu-image7.jpg" class="image-popup" title="Project title">
+                                    <img src="img/gallery/menu-image7.jpg" class="img-responsive" alt="">
+    
+                                    <div class="menu-info">
+                                            <div class="menu-item">
+                                                <h3>Big Flat Fried</h3>
+                                                <p>Pepper / Crispy</p>
+                                            </div>
+                                            <div class="menu-price">
+                                                <span>$30</span>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-4 col-sm-6">
+                        <!-- MENU THUMB -->
+                        <div class="menu-thumb">
+                            <a href="img/gallery/menu-image8.jpg" class="image-popup" title="Project title">
+                                <img src="img/gallery/menu-image8.jpg" class="img-responsive" alt="">
+    
+                                <div class="menu-info">
+                                        <div class="menu-item">
+                                            <h3>Big Flat Fried</h3>
+                                            <p>Pepper / Crispy</p>
+                                        </div>
+                                        <div class="menu-price">
+                                            <span>$30</span>
+                                        </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4 col-sm-6">
+                    <!-- MENU THUMB -->
+                    <div class="menu-thumb">
+                        <a href="img/gallery/menu-image9.jpg" class="image-popup" title="Project title">
+                            <img src="img/gallery/menu-image9.jpg" class="img-responsive" alt="">
+    
+                            <div class="menu-info">
+                                    <div class="menu-item">
+                                        <h3>Big Flat Fried</h3>
+                                        <p>Pepper / Crispy</p>
+                                    </div>
+                                    <div class="menu-price">
+                                        <span>$30</span>
+                                    </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </section>
+
+             <!-- ======= Footer ======= -->
+            <footer class="footer mt-5">
+                <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-info">
+                        <h3>Restaurantly</h3>
+                        <p>
+                            Vesu Main Road<br>
+                            surat-395007<br><br>
+                            <strong>Phone:</strong> +91 55895 48855<br>
+                            <strong>Email:</strong> ashrafi0092@gmail.com<br>
+                        </p>
+                        <div class="social-links mt-3">
+                            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram-square"></i></a>
+                            <a href="#" class="google-plus"><i class="fab fa-skype"></i></a>
+                            <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                        <li><i class="fas fa-angle-right"></i> <a href="#">Home</a></li>
+                        <li><i class="fas fa-angle-right"></i> <a href="#">About us</a></li>
+                        <li><i class="fas fa-angle-right"></i> <a href="#">Services</a></li>
+                        <li><i class="fas fa-angle-right"></i> <a href="#">Terms of service</a></li>
+                        <li><i class="fas fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                        <li><i class="fas fa-angle-right"></i> <a href="#">Web Design</a></li>
+                        <li><i class="fas fa-angle-right"></i> <a href="#">Web Development</a></li>
+                        <li><i class="fas fa-angle-right"></i> <a href="#">Product Management</a></li>
+                        <li><i class="fas fa-angle-right"></i> <a href="#">Marketing</a></li>
+                        <li><i class="fas fa-angle-right"></i> <a href="#">Graphic Design</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Our Newsletter</h4>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <form action="" method="post">
+                        <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+    
+                    </div>
+    
+                    </div>
+                </div>
+                </div>
+    
+                <div class="container">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>ASHRAFI</span></strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    Designed by <a href="javascript:void(0)" class="text-white"><b>Mo.Tahir</b>😎</a>
+                </div>
+                </div>
+            </footer>
+        </main>
+
+        <!-- Back To Top -->
+        <div class="top">
+            <i class="bi bi-arrow-up-short"></i>
+          </div>
+      
+          <!-- javascript -->
+          <script src="js/jquery.min.js" type="text/javascript"></script>
+          <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+          <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+          
+          <script type="text/javascript">
+            $(document).ready(function(){
+              $(".toggle-menu").click(function(){
+                $("nav").slideToggle("slow");
+              });
+              $(".top").click(function(){
+                $("html,body").animate({
+                  scrollTop:0
+                },1000);
+              });
+            });
+          </script>	
+    </body>
+</html>
